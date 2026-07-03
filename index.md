@@ -12,7 +12,6 @@ My research focuses on Digital Transformation, Analytics, Technology Management,
 ### Pages
 - [About Me](./about.md)
 - [Research](./research.md)
-- [Corporate Experience](./corporateexperience.md)
 - [Teaching](./teaching.md)
 
 ### Contact

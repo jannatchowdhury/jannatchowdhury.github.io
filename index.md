@@ -11,8 +11,10 @@ My research focuses on Digital Transformation, Analytics, Technology Management,
 
 ### Pages
 - [About Me](./about.md)
-- [Research](./research.md)
-- [Teaching](./teaching.md)
+- [Research Papers & Projects](./researchpapers&projects.md)
+- [Teachings & Scholarships](./teachings&scholarships.md)
+- [Certificates](./certificates.md)
+- [ECAs & Volunteerings](./ecas&volunteerings.md)
 
 ### Contact
 - **Email:** jannatchowdhury01@gmail.com

@@ -4,7 +4,7 @@ I am a Research Associate at Daffodil International University, who brings 5+ ye
 
 My research focuses on Digital Transformation, Analytics, Technology Management, AI Adoption.
 
-## Education
+### Education
 ### BRAC University
 * BBA Major in Human Resource Management & Minor in Computer Information Management
 * Merit-Based Scholarship
@@ -15,7 +15,7 @@ My research focuses on Digital Transformation, Analytics, Technology Management,
 * O & A Levels (Pearson Edexcel)
 * Daily Star Award
 
-## Experience
+### Experience
 * Research Associate - Daffodil International University (Jun'2026 - Present)
 * Program Manager, Campaign & Strategy - Daraz Bangladesh Ltd. (Jul'25 - May'26)
 * Assistant Manager, Strategic Projects - Daraz Bangladesh Ltd. (Jun'24 - Jun'25)

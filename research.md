@@ -1,4 +1,4 @@
-### Working Papers
+### Working Research Paper
 * Predictive Game Analysis in Female Players of Bangladesh (with Dr. Imran Mahmud)
 
 ### Academic Papers

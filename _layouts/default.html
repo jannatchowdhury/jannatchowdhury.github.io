@@ -1,49 +1,89 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <style>
-      .top-nav { text-align: right; margin-bottom: 20px; padding: 10px 0; }
-      .top-nav a { margin-left: 15px; text-decoration: none; font-weight: bold; color: #007698; font-size: 13px; }
-      .top-nav a:hover { text-decoration: underline; }
-    </style>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      {% if site.logo %}
-        <img src="{{ site.logo | relative_url }}" alt="Logo" style="border-radius: 4px; max-width: 100%; height: auto;" />
-      {% endif %}
-      <p>{{ site.description }}</p>
-      <p><a href="{{ site.github.repository_url }}">View My GitHub Profile</a></p>
-    </header>
-      <section>
-        <!-- Full-width Jesita-style Navigation Header Bar -->
-      <div style="background-color: #fcfcfc; border-bottom: 1px solid #eaeaea; margin: -20px -40px 30px -40px; padding: 15px 40px; display: flex; justify-content: space-between; align-items: center; font-family: sans-serif;">
-        
-        <!-- Left Side Name (Hidden on sidebar, prominent on top) -->
-        <span style="font-weight: bold; font-size: 18px; color: #000; letter-spacing: 0.5px;">Khatun A Jannat Chowdhury</span>
-        
-        <!-- Right Side Nav Tabs -->
-        <nav style="display: flex; align-items: center;">
-          <a href="{{ '/' | relative_url }}" style="text-decoration: none; font-size: 12px; font-weight: bold; color: #007698; padding: 10px 20px; letter-spacing: 0.5px;">HOME</a>
-          <a href="{{ '/about.html' | relative_url }}" style="text-decoration: none; font-size: 12px; font-weight: bold; color: #007698; padding: 10px 20px; border-left: 1px solid #eaeaea; letter-spacing: 0.5px;">ABOUT ME</a>
-          <a href="{{ '/research.html' | relative_url }}" style="text-decoration: none; font-size: 12px; font-weight: bold; color: #007698; padding: 10px 20px; border-left: 1px solid #eaeaea; letter-spacing: 0.5px;">RESEARCH & PROJECTS</a>
-         <a href="{{ '/teaching.html' | relative_url }}" style="text-decoration: none; font-size: 12px; font-weight: bold; color: #007698; padding: 10px 20px; border-left: 1px solid #eaeaea; letter-spacing: 0.5px;">TEACHING & OTHERS</a>
-        </nav>
-      </div>
-        
-        {{ content }}
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; color: #222; }
+    .wrapper { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f7f7f7;
+      border-bottom: 1px solid #eaeaea;
+      padding: 15px 40px;
+      margin: 0 -20px 30px -20px;
+    }
+    .top-nav .site-title { font-weight: bold; font-size: 18px; color: #000; }
+    .top-nav nav a {
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: bold;
+      color: #007698;
+      padding: 10px 20px;
+      letter-spacing: 0.5px;
+      border-left: 1px solid #eaeaea;
+    }
+    .top-nav nav a:first-child { border-left: none; }
+    .top-nav nav a:hover { text-decoration: underline; }
+
+    .layout { display: flex; gap: 40px; align-items: flex-start; }
+    .sidebar { width: 220px; flex-shrink: 0; }
+    .sidebar img { width: 100%; border-radius: 4px; margin-bottom: 15px; }
+    .sidebar h3 { font-size: 15px; margin: 20px 0 5px; }
+    .sidebar p, .sidebar a { font-size: 14px; }
+    .sidebar a { color: #007698; text-decoration: none; }
+    .sidebar a:hover { text-decoration: underline; }
+    .content { flex: 1; min-width: 0; line-height: 1.7; }
+    .content h3 { margin-top: 30px; }
+
+    footer { text-align: center; padding: 30px 0; color: #777; font-size: 13px; }
+    footer a { color: #007698; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="top-nav">
+      <span class="site-title">{{ site.title }}</span>
+      <nav>
+        <a href="{{ '/' | relative_url }}">HOME</a>
+        <a href="{{ '/about.html' | relative_url }}">ABOUT ME</a>
+        <a href="{{ '/research.html' | relative_url }}">RESEARCH &amp; PROJECTS</a>
+        <a href="{{ '/teaching.html' | relative_url }}">TEACHING &amp; OTHERS</a>
+      </nav>
     </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-  </body>
+
+    <div class="layout">
+      <div class="sidebar">
+        {% if site.avatar %}
+          <img src="{{ site.avatar | relative_url }}" alt="{{ site.title }}">
+        {% endif %}
+
+        <h3>Contact</h3>
+        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+        <h3>GitHub</h3>
+        <p><a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></p>
+
+        <h3>CV</h3>
+        <p><a href="{{ site.cv_link | relative_url }}">Curriculum Vitae</a></p>
+      </div>
+
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+
+    <footer>
+      Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a>
+    </footer>
+  </div>
+  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+</body>
 </html>

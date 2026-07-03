@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Your Name
+# Khatun A Jannat Chowdhury
 
 I am a Research Associate at Daffodil International University, who brings 5+ years of corporate experience as a Program & Project Manager in leading global MNCs, where I led data-driven technological growth initiatives.
 

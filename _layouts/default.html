@@ -23,13 +23,20 @@
         <p><a href="{{ site.github.repository_url }}">View My GitHub Profile</a></p>
       </header>
       <section>
-        <div class="top-nav">
-          <a href="{{ '/about.html' | relative_url }}">ABOUT ME</a>
-          <a href="{{ '/research.html' | relative_url }}">RESEARCH & PROJECTS</a>
-          <a href="{{ '/teaching.html' | relative_url }}">TEACHING & OTHERS</a>
-  
-        </div>
-        <hr style="border: 0; border-top: 1px solid #eee; margin-bottom: 30px;">
+        <!-- Full-width Jesita-style Navigation Header Bar -->
+      <div style="background-color: #fcfcfc; border-bottom: 1px solid #eaeaea; margin: -20px -40px 30px -40px; padding: 15px 40px; display: flex; justify-content: space-between; align-items: center; font-family: sans-serif;">
+        
+        <!-- Left Side Name (Hidden on sidebar, prominent on top) -->
+        <span style="font-weight: bold; font-size: 18px; color: #000; letter-spacing: 0.5px;">Khatun A Jannat Chowdhury</span>
+        
+        <!-- Right Side Nav Tabs -->
+        <nav style="display: flex; align-items: center;">
+          <a href="{{ '/' | relative_url }}" style="text-decoration: none; font-size: 12px; font-weight: bold; color: #007698; padding: 10px 20px; letter-spacing: 0.5px;">HOME</a>
+          <a href="{{ '/about.html' | relative_url }}" style="text-decoration: none; font-size: 12px; font-weight: bold; color: #007698; padding: 10px 20px; border-left: 1px solid #eaeaea; letter-spacing: 0.5px;">ABOUT ME</a>
+          <a href="{{ '/research.html' | relative_url }}" style="text-decoration: none; font-size: 12px; font-weight: bold; color: #007698; padding: 10px 20px; border-left: 1px solid #eaeaea; letter-spacing: 0.5px;">RESEARCH</a>
+          <a href="{{ '/teaching.html' | relative_url }}" style="text-decoration: none; font-size: 12px; font-weight: bold; color: #007698; padding: 10px 20px; border-left: 1px solid #eaeaea; letter-spacing: 0.5px;">TEACHING</a>
+        </nav>
+      </div>
         
         {{ content }}
       </section>

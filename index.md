@@ -7,6 +7,15 @@ I am a Research Associate at Daffodil International University, who brings 5+ ye
 
 My research focuses on Digital Transformation, Analytics, Technology Management, AI Adoption.
 
+### Pages
+* [About Me](./about.md)
+* [Research & Projects](./research.md)
+* [Teaching & Others](./teaching.md)
+
+### Contact
+* **Email:** jannatchowdhury01@gmail.com
+* **CV:** [Download full CV (PDF)](./your-cv.pdf)
+
 ### Contact
 - **Email:** jannatchowdhury01@gmail.com
 - **CV:** [Download full CV (PDF)](./your-cv.pdf)

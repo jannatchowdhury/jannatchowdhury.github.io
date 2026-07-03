@@ -12,7 +12,9 @@ My research focuses on Digital Transformation, Analytics, Technology Management,
 ## Education
 ### BRAC University
 * BBA Major in Human Resource Management & Minor in Computer Information Management
-* Merit-Based Scholarship | VC's List | Dean's List
+* Merit-Based Scholarship
+* VC's List
+* Dean's List
 
 ### Prior Education
 * O & A Levels (Pearson Edexcel)

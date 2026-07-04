@@ -12,6 +12,8 @@ My research focuses on Digital Transformation, Analytics, Technology Management,
 * [Research & Projects](./research.md)
 * [Teaching & Others](./teaching.md)
 
-### Contact
-* **Email:** jannatchowdhury01@gmail.com
-* **CV:** [Download full CV (PDF)](/CV.pdf)
+### Research Interests
+* Digital Transformations
+* Technology Management
+* AI Adoption
+* Analytics

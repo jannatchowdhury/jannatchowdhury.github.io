@@ -12,9 +12,3 @@
 * Smart Attendance System
 * Shahosh: Women's Safety App in Bangladesh
 * Let’s Talk!: SexEd App for Bangladeshi youths via ProjectLibre
-
-### Research Interests
-* Digital Transformation
-* Analytics
-* Technology Management
-* AI Adoption

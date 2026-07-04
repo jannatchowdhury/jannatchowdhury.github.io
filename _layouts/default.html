@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Georgia, "Times New Roman", serif; color: #222; line-height: 1.6; }
+    .wrapper { max-width: 1000px; margin: 0 auto; padding: 0 20px 40px; }
 
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: nowrap;
+      background-color: #f7f7f7;
+      border-bottom: 1px solid #eaeaea;
+      padding: 18px 30px;
+      margin: 0 -20px 30px -20px;
+      font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    }
+    .top-nav .site-title {
+      font-weight: bold;
+      font-size: 18px;
+      color: #000;
+      white-space: nowrap;
+      margin-right: 20px;
+    }
+    .top-nav nav { display: flex; flex-wrap: nowrap; }
+    .top-nav nav a {
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: bold;
+      color: #007698;
+      padding: 8px 14px;
+      letter-spacing: 0.5px;
+      white-space: nowrap;
+    }
+    .top-nav nav a:hover { text-decoration: underline; }
+
+    .layout { display: flex; gap: 40px; align-items: flex-start; }
+    .sidebar { width: 220px; flex-shrink: 0; }
+    .sidebar img { width: 100%; border-radius: 4px; margin-bottom: 15px; display: block; }
+    .sidebar h3 { font-size: 15px; margin: 20px 0 5px; }
+    .sidebar p, .sidebar a { font-size: 14px; margin: 4px 0; }
+    .sidebar a { color: #007698; text-decoration: none; }
+    .sidebar a:hover { text-decoration: underline; }
+
+    .content { flex: 1; min-width: 0; line-height: 1.7; }
+    .content h3 { margin-top: 30px; font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; }
+    .content ul { padding-left: 20px; }
+    .content a, .content a:visited {
+      color: #007698;
+      text-decoration: none;
+    }
+    .content a:hover { text-decoration: underline; }
+
+    .site-footer {
+      text-align: center;
+      padding: 30px 0 0;
+      color: #777;
+      font-size: 13px;
+      clear: both;
+    }
+    .site-footer a { color: #007698; }
+
+    @media (max-width: 700px) {
+      .top-nav { flex-wrap: wrap; }
+      .layout { flex-direction: column; }
+      .sidebar { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="top-nav">
+      <span class="site-title">{{ site.title }}</span>
+      <nav>
+        <a href="{{ '/' | relative_url }}">HOME</a>
+        <a href="{{ '/about.html' | relative_url }}">ABOUT ME</a>
+        <a href="{{ '/research.html' | relative_url }}">RESEARCH &amp; PROJECTS</a>
+        <a href="{{ '/teaching.html' | relative_url }}">TEACHING &amp; OTHERS</a>
+      </nav>
+    </div>
+
+    <div class="layout">
+      <div class="sidebar">
+        {% if site.avatar %}
+          <img src="{{ site.avatar | relative_url }}" alt="{{ site.title }}">
+        {% endif %}
+
+        <h3>Contact</h3>
+        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+        <h3>GitHub</h3>
+        <p><a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></p>
+
+        <h3>CV</h3>
+        <p><a href="{{ site.cv_link | relative_url }}">Curriculum Vitae</a></p>
+      </div>
+
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+
+    <div class="site-footer">
+      Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a>
+    </div>
+  </div>
+</body>
+</html>

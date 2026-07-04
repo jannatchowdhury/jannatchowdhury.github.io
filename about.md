@@ -1,6 +1,5 @@
+### About Me
 I am a Research Associate at Daffodil International University, who brings 5+ years of corporate experience as a Program & Project Manager from leading global MNCs, where I led data-driven technological growth initiatives.
-
-My research focuses on Digital Transformation, Analytics, Technology Management, AI Adoption.
 
 ### Education
 ### BRAC University
@@ -8,10 +7,6 @@ My research focuses on Digital Transformation, Analytics, Technology Management,
 * Merit-Based Scholarship
 * VC's List
 * Dean's List
-
-### Prior Education
-* O & A Levels (Pearson Edexcel)
-* Daily Star Award
 
 ### Experience
 * Research Associate - Daffodil International University (Jun'2026 - Present)

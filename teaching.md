@@ -6,8 +6,8 @@
 ### Scholarships
 * Merit-Based Scholarship, BRAC University (50% and 25% tuition fees off)
 * ISCEA PTAK Prize 2020: Global Supply Chain Case Analysis Competition (60% course fees off)
-* Queen Mary Global Excellence Scholarship (£7000 tuition fees off)
-* Think Big Career Accelerator Scholarship (£3000 tuition fees off)
+* Queen Mary Global Excellence Scholarship (£7000 tuition fees off), did not accept it
+* Think Big Career Accelerator Scholarship (£3000 tuition fees off), did not accept it
 
 ### Certifications 
 * Project Management Competencies for Professionals (PMC) (Authorized & Offered by IBA, University of Dhaka), in progress

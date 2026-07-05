@@ -8,7 +8,7 @@ I am a Research Associate at Daffodil International University, who brings 4+ ye
 ### Pages
 * [About Me](./about.md)
 * [Research & Projects](./research.md)
-* [Teaching & Others](./teaching.md)
+* [ECAs](./teaching.md)
 
 ### Research Interests
 * Digital Transformations

@@ -74,6 +74,9 @@
   </style>
 </head>
 <body>
+  {% if page.url == "/" %}
+    <img src="{{ '/cover.png' | relative_url }}" alt="{{ site.title }}" style="width: 100%; display: block;">
+  {% endif %}
   <div class="wrapper">
     <div class="top-nav">
       <span class="site-title">{{ site.title }}</span>

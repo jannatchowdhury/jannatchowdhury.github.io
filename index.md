@@ -11,7 +11,8 @@ I am a Research Associate at Daffodil International University, who brings 4+ ye
 * [Teaching & ECAs](./teaching.md)
 
 ### Research Interests
-* Digital Transformations
 * Technology Management
-* AI Adoption
-* Analytics
+* Digital Equity
+* Tech Inclusion
+* Digital Platform Economics
+* Emerging Markets

@@ -1,5 +1,6 @@
 ### Working Research Paper
-* Predictive Game Analysis in Female Players of Bangladesh (with Dr. Imran Mahmud)
+* Psychometric Predictors of Gaming Addiction: Behavioral Survey Dataset of Female University Students in Bangladesh (with Dr. Imran Mahmud)
+* Dataset already published in Mendeley
 
 ### Academic Papers
 * Statistical Quantitative & Qualitative Analysis of Socioeconomic & Demographic Factors Influencing University Students' CGPA

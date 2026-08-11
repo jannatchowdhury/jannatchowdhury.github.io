@@ -1,5 +1,6 @@
 ### Working Research Paper
-* Psychometric Predictors of Gaming Addiction: Behavioral Survey Dataset of Female University Students in Bangladesh (with Dr. Imran Mahmud)
+* Psychometric Predictors of Gaming Addiction: Behavioral Survey Dataset of Female University Students in Bangladesh (Supervisor: Dr. Imran Mahmud)
+* This paper studied how women engage with digital platforms (gaming) and what psychosocial factors drive that engagement.
 * Dataset already published in Mendeley
 
 ### Academic Papers

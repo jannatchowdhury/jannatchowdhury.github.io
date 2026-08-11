@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-I am a Research Associate at Daffodil International University, who brings 4+ years of corporate experience as a Program & Project Manager in leading global MNCs, where I led data-driven technological growth initiatives.
+I am an upcoming Lecturer (current Research Associate) at Daffodil International University, who brings 4+ years of corporate experience as a Program & Project Manager in leading global MNCs, where I led data-driven technological growth initiatives.
 
 ### Pages
 * [About Me](./about.md)
